@@ -1,0 +1,84 @@
+.TableInsumos {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.containerButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttonsCrud {
+  background-color: #0288D1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.buttonsCrud:hover {
+  background-color: #4f49e1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+table th {
+  background-color: #0288D1;
+  color: white;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table td {
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .TableInsumos {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 20px;
+  }
+
+  .buttonsCrud {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+
+  table th, table td {
+      padding: 10px;
+      font-size: 14px;
+  }
+}

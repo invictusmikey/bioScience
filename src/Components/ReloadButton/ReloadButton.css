@@ -1,0 +1,24 @@
+.containerButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttonsCrud {
+  background-color: #0288D1;
+  color: white;
+  border: none;
+  padding: 12px 24px; /* Aumentado para mejor experiencia táctil */
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s; /* Agregada animación al hacer clic */
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Añadido sombra para profundidad */
+}
+
+.buttonsCrud:hover {
+  background-color: #4f49e1;
+  transform: translateY(-2px); /* Efecto de elevación al pasar el ratón */
+}
+  

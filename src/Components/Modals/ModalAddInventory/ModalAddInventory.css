@@ -1,0 +1,85 @@
+.modalAddBio {
+    gap: 7px;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 530px;
+    padding: 20px;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.modalAddBio h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.modalAddBio h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.modalAddBio input {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.modalAddBio button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.modalAddBio button:hover {
+    background-color: #0056b3;
+}
+
+.modalAddBio button:focus {
+    outline: none;
+}
+
+.modalAddBio button:first-child {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: transparent;
+    color: #555;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modalAddBio button:first-child:hover {
+    color: #000;
+    
+}
+.close{
+    background-color: #007BFF;
+    color: #333;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+  }
+  .save{
+    color: #007BFF;
+  }

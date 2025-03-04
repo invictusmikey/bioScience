@@ -1,0 +1,50 @@
+
+.wText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.Texto {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.containerLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vw;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+
+.containerLinks a img {
+    margin-top: 10vh;
+    width: 50vw;
+    height: 322px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    
+
+}
+
+.containerLinks a img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}

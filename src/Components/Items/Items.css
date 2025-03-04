@@ -1,0 +1,29 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vh;
+  }
+  
+  li {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  }
+  
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #4f49e1;
+    border-right: 1px solid #4f49e1; /* Adjust border style and color as needed */
+    width: 10vw;
+    height: 10vh;
+  }
+  
+  a:hover {
+    width: 22vh;
+    font-size: 2vw;
+  }

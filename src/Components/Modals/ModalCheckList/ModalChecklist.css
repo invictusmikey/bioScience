@@ -1,0 +1,136 @@
+.modalLink{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+   
+}
+.modal-links{
+    display: flex;
+    background-color:   #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative;
+    left: 5vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list-links{
+    margin-bottom: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-close{
+    border-radius: 3px;
+    margin-top: 3vh;
+    width: 5vw;     
+    background-color: #f0f0f0;
+    color: #000;
+    margin-right: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.buttons-links{
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(52,152,219);
+    width: 25vw;
+    height: 7vh;
+    margin-right: 4vw;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #2c95f7;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+.buttons-links:hover{
+    box-shadow: inset 400px 0 0 0 #096e9d
+}
+.li-btn{
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.list-docs{
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.li-docts{
+    margin-bottom: 2vh;
+}
+.selected-file{
+    margin-bottom: 1vh;
+    background-color: #3686c7;
+    border-radius: 5px;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.selected-file:hover{
+    width: 20vw;
+    height: 5.2vh;
+
+}
+.btn-section{
+    margin-bottom: 1vh;
+    border-radius: 2px;
+    width: 8vw;
+    height: 4vh;
+    border: none;
+    background-color: royalblue;
+    cursor: pointer;
+}
+.btn-section:hover{
+    background-color: rgb(206, 18, 178);
+}
+.btn-subir {
+    margin-top: 1vh;
+    cursor: pointer;
+}
+.btn-cancelar{
+    margin-left: 4vw;
+    cursor: pointer;
+}
+.btn-archivos{
+    background-color: rgb(0, 166, 255);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: 4vh;
+    width: 25vw;
+    height: 5vh;
+    margin-top: 1vh;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #2c95f7;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+.btn-archivos:hover{
+    background-color: #096e9d;
+}

@@ -1,0 +1,61 @@
+.footer-container {
+    background-color: #0288D1; 
+    color: #FFFFFF; 
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: 95.5vw;
+    height: 30vh;
+  }
+  
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 20px;
+   
+    
+  }
+  
+    
+  .footer-logo {
+    height: 60px; 
+    width: auto;
+    margin-bottom: 15px; /* Espacio entre el logo y los enlaces */
+  }
+  
+  /* Estilo de los enlaces */
+  .footer-links {
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+  }
+  
+  .footer-links a {
+    color: #E0F7FA; /* Azul claro para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease; /* Transición suave para el efecto hover */
+  }
+  
+  .footer-links a:hover {
+    color: #FFFFFF; /* Cambio de color al pasar el cursor */
+  }
+  
+  /* Estilo para la parte inferior del footer */
+  .footer-bottom {
+    margin-top: 10px;
+    font-size: 14px; 
+  }
+  
+  /* Estilo para la versión responsive */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column; /* Cambia a columna en pantallas más pequeñas */
+    }
+  
+    .footer-links {
+      flex-direction: column; /* Enlaces apilados en móviles */
+      align-items: center; /* Centrados */
+    }
+  }
+  

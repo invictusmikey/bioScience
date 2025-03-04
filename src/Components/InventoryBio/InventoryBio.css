@@ -1,0 +1,114 @@
+.TableInventory {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  font-family: 'Arial', sans-serif;
+  overflow-x: auto; 
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 28px; /* Aumentado para mayor impacto */
+  margin-bottom: 20px;
+  font-weight: bold; /* Hacer el título más destacado */
+}
+
+.containerButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttonsCrud {
+  background-color: #0288D1;
+  color: white;
+  border: none;
+  padding: 12px 24px; 
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s; 
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.buttonsCrud:hover {
+  background-color: #4f49e1;
+  transform: translateY(-2px); 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: fixed; 
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+}
+
+table th {
+  background-color: #0288D1;
+  color: white;
+  font-weight: bold; /* Aumentar la negrita en los encabezados */
+}
+
+table tr:hover {
+  background-color: #e0f7fa; /* Color más suave al pasar el ratón */
+}
+
+table td {
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .TableInventory {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 24px; /* Ajustado para mayor legibilidad */
+  }
+
+  .buttonsCrud {
+      padding: 10px 20px; /* Ajustado para un mejor tamaño */
+      font-size: 14px;
+  }
+
+  table th, table td {
+      padding: 10px;
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 20px; /* Ajustado para pantallas pequeñas */
+  }
+
+  .buttonsCrud {
+      padding: 8px 16px; /* Reducido para pantallas pequeñas */
+      font-size: 12px;
+      margin: 0 5px; 
+  }
+
+  table th, table td {
+      padding: 8px;
+      font-size: 12px;
+  }
+
+  .containerButtons {
+      flex-direction: column; 
+      align-items: center; /* Centrar botones en pantallas pequeñas */
+  }
+}

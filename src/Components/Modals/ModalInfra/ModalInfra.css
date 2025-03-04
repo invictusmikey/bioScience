@@ -1,0 +1,82 @@
+/* ModalInfra.css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que el modal esté sobre otros elementos */
+  }
+  
+  .modal-content {
+    margin-left: 10vw;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative;
+  }
+  
+  .modal-content h1 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .modal-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .modal-content button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-content .buttonsCrud {
+    background-color: #3498db;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .modal-content .buttonsCrud:hover {
+    background-color: #2980b9;
+  }
+  
+  .modal-content .buttonsCrud:last-child {
+    background-color: #e74c3c;
+  }
+  
+  .modal-content .buttonsCrud:last-child:hover {
+    background-color: #c0392b;
+  }
+  
+  .modal-content button.close {
+    background-color: transparent;
+    color: #333;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+  }
+  
+  .modal-content button.close:hover {
+    color: #e74c3c;
+  }
+  
