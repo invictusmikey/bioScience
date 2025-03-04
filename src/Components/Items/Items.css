@@ -17,8 +17,10 @@ ul {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #4f49e1;
-    border-right: 1px solid #4f49e1; /* Adjust border style and color as needed */
+    color: #096e9d
+;
+    border-right: 1px solid #096e9d
+; /* Adjust border style and color as needed */
     width: 10vw;
     height: 10vh;
   }

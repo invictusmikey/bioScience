@@ -61,7 +61,7 @@
     transition: ease-out 0.4s;
 }
 .buttons-links:hover{
-    box-shadow: inset 400px 0 0 0 #096e9d
+    box-shadow: inset 400px 0 0 0 #096e9d;
 }
 .li-btn{
     margin-bottom: 2vh;

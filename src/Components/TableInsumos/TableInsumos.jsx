@@ -127,7 +127,7 @@ export const TableInsumos = () => {
                                 <td>{supply.InventarioInicial }</td>
                                 <td>{supply.Estado || 'Desconocido'}</td>
                                 <td>
-                                    <button onClick={() => openModalInfra(supply)}>Ver insumo</button>
+                                    <button className='ver-insumo' onClick={() => openModalInfra(supply)}>Ver insumo</button>
                                 </td>
                             </tr>
                         ))

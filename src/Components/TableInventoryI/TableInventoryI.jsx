@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './TableInventoryI.css'
 import { SearchBar } from "../Searchbar/SearchBar";
 import { ReloadButton } from '../ReloadButton/ReloadButton';
 import { ModalAddTools } from '../Modals/ModalAddTools/ModalAddTools';
@@ -117,7 +118,7 @@ export const TableInventoryI = () => {
                                 <td>{supply.cantidad|| '0'}</td>
                                
                                 <td>
-                                    <button onClick={() => openModalSbio(supply)}>Ver insumo</button>
+                                    <button className='ver-insumo' onClick={() => openModalSbio(supply)}>Ver insumo</button>
                                 </td>
                             </tr>
                         ))

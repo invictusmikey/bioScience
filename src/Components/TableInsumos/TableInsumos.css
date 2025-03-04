@@ -34,7 +34,20 @@ h1 {
 }
 
 .buttonsCrud:hover {
-  background-color: #4f49e1;
+  background-color: #096e9d
+;
+}
+.ver-insumo{
+  background-color: #0288D1;
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+  border-style: none;
+}
+.ver-insumo:hover{
+  color: #e0f7fa;
+  background-color: #08547d;
+  transform:scale(0.9);
 }
 
 table {

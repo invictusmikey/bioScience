@@ -126,7 +126,7 @@ export const TableSuppliesB = () => {
                                 <td>{supply.inventario_inicial || '0'}</td>
                                 <td>{supply.inventario_final || '0'}</td>
                                 <td>
-                                    <button onClick={() => openModalSbio(supply)}>Ver insumo</button>
+                                    <button className='ver-insumo' onClick={() => openModalSbio(supply)}>Ver insumo</button>
                                 </td>
                             </tr>
                         ))

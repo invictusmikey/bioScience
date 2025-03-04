@@ -18,7 +18,8 @@
 }
 
 .buttonsCrud:hover {
-  background-color: #4f49e1;
-  transform: translateY(-2px); /* Efecto de elevación al pasar el ratón */
+  background-color: #096e9d
+;
+  transform: translateY(-2px); 
 }
   

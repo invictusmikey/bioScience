@@ -7,13 +7,25 @@
   font-family: 'Arial', sans-serif;
   overflow-x: auto; 
 }
+.ver-insumo{
+  background-color: #0288D1;
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+  border-style: none;
+}
+.ver-insumo:hover{
+  color: #e0f7fa;
+  background-color: #08547d;
+  transform:scale(0.9);
+}
 
 h1 {
   text-align: center;
   color: #333;
-  font-size: 28px; /* Aumentado para mayor impacto */
+  font-size: 28px; 
   margin-bottom: 20px;
-  font-weight: bold; /* Hacer el título más destacado */
+  font-weight: bold; 
 }
 
 .containerButtons {
@@ -36,7 +48,7 @@ h1 {
 }
 
 .buttonsCrud:hover {
-  background-color: #4f49e1;
+  background-color: #096e9d;
   transform: translateY(-2px); 
 }
 
@@ -79,6 +91,7 @@ table td {
   h1 {
       font-size: 24px; /* Ajustado para mayor legibilidad */
   }
+
 
   .buttonsCrud {
       padding: 10px 20px; /* Ajustado para un mejor tamaño */
