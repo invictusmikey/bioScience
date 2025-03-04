@@ -4,7 +4,7 @@ import { ModalAddInventory } from '../Modals/ModalAddInventory/ModalAddInventory
 import { ReloadButton } from '../ReloadButton/ReloadButton';
 import { SearchBar } from '../Searchbar/SearchBar';
 import { ModalInventoryBio } from '../Modals/ModalInventoryBio/modalInventoryBio';
-ModalInventoryBio
+
 
 export const InventoryBio = () => {
     const [supplies, setSupplies] = useState([]);
