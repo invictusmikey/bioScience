@@ -19,7 +19,7 @@ export const InventoryBio = () => {
 
     const fetchSupplies = async () => {
         try {
-            const response = await fetch('http://localhost:3000/inventorybRoutes/',{
+            const response = await fetch('https://phs120t6-3000.use2.devtunnels.ms/inventorybRoutes/',{
                 method: 'GET',
                 headers:{
                     'Content-Type': 'application/json',
