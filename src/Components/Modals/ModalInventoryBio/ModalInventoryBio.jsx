@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ModalInventoryBio.css';
-import { ModalCheckList } from '../ModalCheckList/ModalCheckList';
+import { ModalCheckList } from '../ModalCheckList/ModalChecklist';
 
 export const ModalInventoryBio = ({ isOpen, closeModal, selectedSupply, onUpdate, onDelete }) => {
   const [isEditing, setIsEditing] = useState(false);
