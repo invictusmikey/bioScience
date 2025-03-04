@@ -3,7 +3,7 @@ import './InventoryBio.css';
 import { ModalAddInventory } from '../Modals/ModalAddInventory/ModalAddInventory';
 import { ReloadButton } from '../ReloadButton/ReloadButton';
 import { SearchBar } from '../Searchbar/SearchBar';
-import { ModalInventoryBio } from '../Modals/ModalInventoryBio/modalInventoryBio';
+import { ModalInventoryBio } from '../Modals/ModalInventoryBio/ModalInventoryBio';
 
 
 export const InventoryBio = () => {
